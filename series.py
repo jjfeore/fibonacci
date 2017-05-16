@@ -40,7 +40,12 @@ def sum_series(n, x=0, y=1):
         return 'Please use an integer greater than 0.'
 
 if __name__ == "__main__":
-    print(fib(6))
-    print(lucas(4))
-    print(sum_series(8))
-    print(sum_series(9, 3, 3))
+    print('This module defines functions that implement mathematical series.')
+    print('Fibonacci(n): Returns the nth value in the Fibonacci series')
+    print('Fibonacci(6): ' + str(fib(6)))
+    print('Lucas(n): Returns the nth value in the Lucas series')
+    print('Lucas(4): ' + str(lucas(4)))
+    print('Sum Series(n): Returns the nth value in a series (Fibonacci with no \
+optional params, or use params if provided)')
+    print('Sum Series(8): ' + str(sum_series(8)))
+    print('Sum Series(9, 3, 3): ' + str(sum_series(9, 3, 3)))
